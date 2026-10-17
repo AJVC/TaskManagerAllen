@@ -7,4 +7,37 @@
     <string name="TextMessage2">Mensaje de snackbar</string>
     <string name="TextSnackbar">Deshacer</string>
 
+    <!-- TaskActivity: etiquetas -->
+    <string name="lblId_Task">ID</string>
+    <string name="lblTitle_Task">Título</string>
+    <string name="lblDescription_Task">Descripción</string>
+    <string name="lblDueDate_Task">Fecha de vencimiento</string>
+    <string name="lblCreationDate_Task">Fecha de creación</string>
+    <string name="lblStatus_Task">Estado</string>
+    <string name="lblAssignedTo_Task">Asignado a</string>
+    <string name="lblPriority_Task">Prioridad</string>
+    <string name="lblNotes_Task">Notas</string>
+
+    <!-- TaskActivity: botones -->
+    <string name="btnTextSave_Task">Guardar</string>
+    <string name="btnTextRemove_Task">Eliminar</string>
+    <string name="btnTextClear_Task">Limpiar</string>
+    <string name="btnTextSearch_Task">Buscar</string>
+    <string name="btnBack_Task">Atrás</string>
+
+    <!-- Mensajes CRUD -->
+    <string name="msgSaveSuccess">La tarea se guardó correctamente</string>
+    <string name="msgDeleteSuccess">La tarea se eliminó correctamente</string>
+    <string name="msgDuplicateData">Error: ya existe una tarea con ese ID</string>
+    <string name="msgNoDataFound">No se encontraron datos</string>
+    <string name="msgSaveError">Error al guardar la tarea</string>
+    <string name="msgDeleteError">Error al eliminar la tarea</string>
+    <string name="msgTaskCompleted">La tarea no se puede eliminar ni cancelar porque está completada</string>
+
+    <!-- Diálogo de confirmación -->
+    <string name="msgConfirmSave">¿Desea continuar con el guardado?</string>
+    <string name="msgConfirmDelete">¿Desea continuar con la eliminación?</string>
+    <string name="btnTextYes">Sí</string>
+    <string name="btnTextNo">No</string>
+
 </resources>
