@@ -21,20 +21,20 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ID" />
+                android:text="@string/lblId_Task" />
 
             <EditText
                 android:id="@+id/txtId_Task"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="txtId_Task" />
+                android:inputType="text" />
 
             <ImageButton
                 android:id="@+id/btnSearch_Task"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/btnTextSearch_Task"
                 app:srcCompat="@android:drawable/ic_menu_search" />
 
         </TableRow>
@@ -47,15 +47,14 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Title" />
+                android:text="@string/lblTitle_Task" />
 
             <EditText
                 android:id="@+id/txtTitle_Task"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="txtTitle_Task" />
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
@@ -66,15 +65,14 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Description" />
+                android:text="@string/lblDescription_Task" />
 
             <EditText
                 android:id="@+id/txtDescription"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="txtDescription" />
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
@@ -85,88 +83,101 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="dueDate" />
+                android:text="@string/lblDueDate_Task" />
 
             <TextView
                 android:id="@+id/tvDueDate_Task"
                 android:layout_width="257dp"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_height="wrap_content" />
 
             <ImageButton
                 android:id="@+id/btnDueDate_Task"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/lblDueDate_Task"
                 app:srcCompat="@android:drawable/ic_menu_my_calendar" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblCreationDate_Task" />
+
+            <TextView
+                android:id="@+id/tvCreationDate_Task"
+                android:layout_width="257dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Creation Date" />
+                android:text="@string/lblStatus_Task" />
 
             <EditText
                 android:id="@+id/txtStatus_Task"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="txtStatus_Task" />
+                android:inputType="text" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Status" />
+                android:text="@string/lblPriority_Task" />
 
             <EditText
                 android:id="@+id/txtPriority_Task"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="txtPriority_Task" />
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="assignTo" />
+                android:text="@string/lblAssignedTo_Task" />
 
             <EditText
                 android:id="@+id/txtAssignTo_Task"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="txtAssignTo_Task" />
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Priority" />
+                android:text="@string/lblNotes_Task" />
 
             <EditText
                 android:id="@+id/txtObservation_Task"
@@ -174,8 +185,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:text="txtObservation_Task" />
+                android:inputType="textMultiLine" />
         </TableRow>
 
     </TableLayout>
@@ -185,7 +195,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:text="Save"
+        android:text="@string/btnTextSave_Task"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
@@ -196,7 +206,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Remove"
+        android:text="@string/btnTextRemove_Task"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
@@ -207,19 +217,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Cancel"
+        android:text="@string/btnTextClear_Task"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRemove_Task" />
-
 
     <Button
         android:id="@+id/btnTA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="664dp"
-        android:text="Atrás"
+        android:text="@string/btnBack_Task"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

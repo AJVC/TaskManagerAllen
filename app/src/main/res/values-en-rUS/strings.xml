@@ -2,9 +2,27 @@
 <resources>
     <string name="app_name">TaskManager</string>
     <string name="btnTextMessage1_main">Show Toast Message</string>
-    <string name="btnTextMessage2_main">Show Snapbar Message</string>
+    <string name="btnTextMessage2_main">Show Snackbar Message</string>
     <string name="btnTextOpenScreen_main">Open a screen</string>
     <string name="TextMessage1">Toast Message</string>
     <string name="TextMessage2">Snackbar Message</string>
     <string name="TextSnackbar">Undo</string>
+
+    <!-- TaskActivity: labels -->
+    <string name="lblId_Task">ID</string>
+    <string name="lblTitle_Task">Title</string>
+    <string name="lblDescription_Task">Description</string>
+    <string name="lblDueDate_Task">Due date</string>
+    <string name="lblCreationDate_Task">Creation date</string>
+    <string name="lblStatus_Task">Status</string>
+    <string name="lblAssignedTo_Task">Assigned to</string>
+    <string name="lblPriority_Task">Priority</string>
+    <string name="lblNotes_Task">Notes</string>
+
+    <!-- TaskActivity: buttons -->
+    <string name="btnTextSave_Task">Save</string>
+    <string name="btnTextRemove_Task">Delete</string>
+    <string name="btnTextClear_Task">Clear</string>
+    <string name="btnTextSearch_Task">Search</string>
+    <string name="btnBack_Task">Back</string>
 </resources>

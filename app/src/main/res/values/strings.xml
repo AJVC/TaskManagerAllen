@@ -7,4 +7,22 @@
     <string name="TextMessage2">Mensaje de snackbar</string>
     <string name="TextSnackbar">Deshacer</string>
 
+    <!-- TaskActivity: etiquetas -->
+    <string name="lblId_Task">ID</string>
+    <string name="lblTitle_Task">Título</string>
+    <string name="lblDescription_Task">Descripción</string>
+    <string name="lblDueDate_Task">Fecha de vencimiento</string>
+    <string name="lblCreationDate_Task">Fecha de creación</string>
+    <string name="lblStatus_Task">Estado</string>
+    <string name="lblAssignedTo_Task">Asignado a</string>
+    <string name="lblPriority_Task">Prioridad</string>
+    <string name="lblNotes_Task">Notas</string>
+
+    <!-- TaskActivity: botones -->
+    <string name="btnTextSave_Task">Guardar</string>
+    <string name="btnTextRemove_Task">Eliminar</string>
+    <string name="btnTextClear_Task">Limpiar</string>
+    <string name="btnTextSearch_Task">Buscar</string>
+    <string name="btnBack_Task">Atrás</string>
+
 </resources>
