@@ -25,4 +25,19 @@
     <string name="btnTextSearch_Task">Buscar</string>
     <string name="btnBack_Task">Atrás</string>
 
+    <!-- Mensajes CRUD -->
+    <string name="msgSaveSuccess">La tarea se guardó correctamente</string>
+    <string name="msgDeleteSuccess">La tarea se eliminó correctamente</string>
+    <string name="msgDuplicateData">Error: ya existe una tarea con ese ID</string>
+    <string name="msgNoDataFound">No se encontraron datos</string>
+    <string name="msgSaveError">Error al guardar la tarea</string>
+    <string name="msgDeleteError">Error al eliminar la tarea</string>
+    <string name="msgTaskCompleted">La tarea no se puede eliminar ni cancelar porque está completada</string>
+
+    <!-- Diálogo de confirmación -->
+    <string name="msgConfirmSave">¿Desea continuar con el guardado?</string>
+    <string name="msgConfirmDelete">¿Desea continuar con la eliminación?</string>
+    <string name="btnTextYes">Sí</string>
+    <string name="btnTextNo">No</string>
+
 </resources>

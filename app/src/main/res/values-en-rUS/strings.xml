@@ -25,4 +25,20 @@
     <string name="btnTextClear_Task">Clear</string>
     <string name="btnTextSearch_Task">Search</string>
     <string name="btnBack_Task">Back</string>
+
+    <!-- CRUD messages -->
+    <string name="msgSaveSuccess">The task was saved successfully</string>
+    <string name="msgDeleteSuccess">The task was deleted successfully</string>
+    <string name="msgDuplicateData">Error: a task with that ID already exists</string>
+    <string name="msgNoDataFound">No data found</string>
+    <string name="msgSaveError">Error saving the task</string>
+    <string name="msgDeleteError">Error deleting the task</string>
+    <string name="msgTaskCompleted">The task cannot be deleted or cancelled because it is completed</string>
+
+    <!-- Confirmation dialog -->
+    <string name="msgConfirmSave">Do you want to continue with saving?</string>
+    <string name="msgConfirmDelete">Do you want to continue with deleting?</string>
+    <string name="btnTextYes">Yes</string>
+    <string name="btnTextNo">No</string>
+
 </resources>
